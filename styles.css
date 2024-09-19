@@ -1,58 +1,66 @@
-/*  your css code here. If applicable */
-.topper{
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-	margin:4px
-}.top{
-	display:flex;
-	color:white;
+/* General Body Styling */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
 }
-.inside{
-	display:flex;
-	justify-content:center;
-	justify-content:space-around;
 
+/* Header Styling */
+.header {
+    background-color: #011e29;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
-p{
-	text-align:center
-}
-.header{
-	text-align:center;
-}
-.box{
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
-	background-color: #f5f5f5;
-	width:33%;
-	margin:0px 3px 20px 4px;
-	border-radius:20px;
-	overflow:hidden;
-	
-}
-img{
-	height:100px;
-	width:100px;
-	margin:3px;
-	overflow:hidden;
-}
-.top{
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	background-color:#011e29;
-}
-.box1{
-	
-	text-align:center;
 
-	height:200px;
-	width:300px;
+/* Inside Container Styling */
+.inside {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
 }
-.box2{
-	height:200px;
-	width:350px;
+
+/* Latest News Section */
+.latest-news-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
-.box3{
-	display:flex;
-	flex-direction:column;
-	justify-content:space-around;
-	align-items:center;
+
+.latest-news-section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.latest-news-section li {
+    margin-bottom: 10px;
+}
+
+/* Main Article Section */
+.main-article-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 40%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+/* Pictorial News Section */
+.pictorial-news-section {
+    background-color: #f5f5f5;
+    padding: 20px;
+    width: 25%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.pictorial-news-section img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 0;
+    border-radius: 5px;
 }
